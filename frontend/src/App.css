@@ -1,4 +1,15 @@
 .apexcharts-canvas {
   user-select: none;
-  -webkit-user-select: none;  /* ✅ Safari support */
+  -webkit-user-select: none;  
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chart-box {
+  width: 80%;
+  max-width: 900px;
 }
